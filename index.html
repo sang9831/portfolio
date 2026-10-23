@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="ko">
 
 <head>
     <meta charset="utf-8">
@@ -42,8 +42,8 @@
 
     <div id="lead">
         <div id="lead-content">
-            <h1>Ahn Sangmin</h1>
-            <h2>Software Engineer</h2>
+            <h1>안상민</h1>
+            <h2>Backend Developer</h2>
         </div>
         <!-- End #lead-content -->
 
@@ -66,7 +66,13 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        저는 제주대학교 컴퓨터공학전공 17학번 안상민입니다. 현재 언리얼 게임 개발을 위해 C++언어와 언리얼 엔진5를 공부하고 있습니다.
+                        신입 백엔드 개발자 안상민입니다. AI 연동, 실시간 통신, 배포 인프라·부하테스트까지 — 기능을 만들고 나서 그게 실제로 버티는지까지 확인하는 백엔드 개발자입니다.
+                    </p>
+                    <p>
+                        항상 모든 걸 잘하고 싶었고, 그래서 프로젝트마다 역할을 정할 때 남들이 먼저 고르지 않는 부분을 맡았습니다. 제가 모르거나 부족한 부분은 피하지 않고, 강사님이나 그 부분을 잘하는 팀원에게 직접 물어보며 제 능력으로 만드는 데 노력했습니다.
+                    </p>
+                    <p>
+                        그렇게 프로젝트를 진행할수록 "여기까지만 하면 된다"가 아니라, 더 보태고 발전시키고 싶은 것들이 계속 보였습니다. 맡은 몫을 해내는 것에서 멈추지 않고, 부족한 걸 채우며 할 수 있는 범위를 스스로 넓혀가는 사람입니다.
                     </p>
                 </div>
             </div>
@@ -74,7 +80,7 @@
     </div>
     <!-- End #about -->
 
-    
+
 
     <div id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
@@ -86,11 +92,11 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>PETOPIA</h3>
+                        <h3>GRAB</h3>
                         <p>
-                            애견인들을 위한 애견동반 시설들의 위치를 카카오맵 마커를 통해 알려주는 웹페이지입니다.
+                            한정 수량을 정해진 시간에 판매하는 DROP 커머스. WISH 찜부터 결제·배송까지 이어지는 흐름을 4인 팀으로 구현. 담당: 판매자(셀러) 도메인 전체, 배포 인프라, 부하테스트. (Java 17·Spring Boot·PostgreSQL·Redis(Valkey)·Docker·GitHub Actions·Nginx·k6·Prometheus/Grafana)
                         </p>
-                        <a href="https://github.com/sang9831/12_team_project">View Project</a>
+                        <a href="https://github.com/prgrms-aibe-devcourse/AIBE7_FinalProject_Team3" target="_blank">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -102,11 +108,27 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>바른 글씨</h3>
+                        <h3>마주한끼</h3>
                         <p>
-                            카메라로 사용자가 쓴 글씨를 인식해 문법에 맞는지 알려주고 교정해주는 앱입니다.
+                            지역·시간·식사 취향 기반 실시간 1:1 식사 매칭 서비스. 2인 팀에서 Backend 리드로 인증, 실시간 매칭, 채팅, 지도 기능을 전담. (Spring Security·JWT·OAuth2·WebSocket·STOMP·PostgreSQL·Valkey(Redis))
                         </p>
-                        <a href="https://github.com/sang9831/importSEJONG">View Project</a>
+                        <a href="https://github.com/prgrms-aibe-devcourse/AIBE7-Project2-Team04" target="_blank">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>PicTrip</h3>
+                        <p>
+                            사진 한 장에서 여행지를 찾고 AI로 국내 여행 일정을 생성하는 서비스. 3인 팀에서 사진 기반 위치·분위기 분석 기능을 전담. (Node.js·Express·Google Gemini·Groq·LangChain·Kakao Local API·Kakao Maps SDK·Supabase)
+                        </p>
+                        <a href="https://github.com/prgrms-aibe-devcourse/AIBE7-Project1-Team04" target="_blank">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -119,15 +141,22 @@
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
-	    <li>Visual Studio Code</li>	
-	    <li>Visual Studio 2022</li>
-            <li>JavaScript</li>
-            <li>C++</li>
-            <li>Kotlin</li>
-	    <li>FireBase</li>
-	    <li>Arduino</li>
-	    <li>Github</li>
-	    <li>Unreal Engine 5</li>
+	    <li>Java 17</li>
+	    <li>Spring Boot</li>
+            <li>Spring Security·JWT</li>
+            <li>OAuth2</li>
+            <li>WebSocket·STOMP</li>
+	    <li>PostgreSQL</li>
+	    <li>Redis(Valkey)</li>
+	    <li>Docker</li>
+	    <li>GitHub Actions</li>
+	    <li>Nginx</li>
+	    <li>k6</li>
+	    <li>Prometheus/Grafana</li>
+	    <li>Node.js / Express</li>
+	    <li>Google Gemini / Groq</li>
+	    <li>LangChain</li>
+	    <li>Kakao API</li>
         </ul>
     </div>
     <!-- End #skills -->
@@ -135,7 +164,7 @@
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
+            <form method="POST" action="https://formspree.io/tjfl9831@gmail.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
@@ -151,7 +180,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; <span id="current-year">2022</span> YOUR NAME
+                        Copyright &copy; <span id="current-year">2026</span> 안상민
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -162,22 +191,10 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/sang9831" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="mailto:tjfl9831@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GRAB - 안상민_Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="index.html">← 포트폴리오로 돌아가기</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">GRAB</h2>
+                </div>
+                <div class="col-md-8">
+                    <img src="images/project3.png" class="img-fluid" style="width:100%;height:280px;object-fit:contain;margin-bottom:20px;" />
+                    <p>
+                        한정 수량을 정해진 시간에 판매하는 DROP 커머스입니다. AIBE7 데브코스 파이널 프로젝트로 4인 팀원들과 함께 진행했습니다.
+                    </p>
+                    <h3>기술 스택</h3>
+                    <p>
+                        Java 17, Spring Boot, Spring Security, JWT, PostgreSQL, Redis, Docker, GitHub Actions, Nginx, k6, Prometheus/Grafana, AWS EC2
+                    </p>
+                    <h3>담당 부분</h3>
+                    <ul>
+                        <li>판매자 등록·재신청 API 및 국세청 사업자등록 상태조회 연동</li>
+                        <li>운영자 판매자 심사(승인·반려) API 및 판매자 대시보드(요약, 통계, 주문 목록·상세) 구현</li>
+                        <li>배송 처리 및 배송 단계 전환 로직, WISH DROP 판매 임박·취소 메일 알림</li>
+                        <li>Redis를 Aiven Valkey(TLS)로 전환, EC2 CD 및 Nginx Blue/Green 배포 구성</li>
+                        <li>k6 기반 동시 주문·드롭 오픈 스파이크 부하테스트, Prometheus/Grafana 모니터링 구축</li>
+                    </ul>
+                    <p>
+                        <a href="https://github.com/prgrms-aibe-devcourse/AIBE7_FinalProject_Team3" target="_blank">GitHub 저장소 보기</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2026</span> 안상민
+                    </p>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/sang9831" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="mailto:tjfl9831@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>

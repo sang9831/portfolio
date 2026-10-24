@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>마주한끼 - 안상민_Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="index.html">← 포트폴리오로 돌아가기</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">마주한끼</h2>
+                </div>
+                <div class="col-md-8">
+                    <img src="images/project2.png" class="img-fluid" style="width:100%;height:280px;object-fit:contain;margin-bottom:20px;" />
+                    <p>
+                        지역·시간·식사 취향 기반 실시간 1:1 식사 매칭 서비스입니다. AIBE7 데브코스 2인 팀 프로젝트로, 백엔드 리드를 맡았습니다.
+                    </p>
+                    <h3>기술 스택</h3>
+                    <p>
+                        Java 17, Spring Boot, Spring Security, JPA/Hibernate, WebSocket/STOMP, Supabase PostgreSQL(PostGIS), Vanilla JS/Vite
+                    </p>
+                    <h3>담당 부분</h3>
+                    <ul>
+                        <li>Spring Security + JWT 인증 체계 설계·구현, Google OAuth2 소셜 로그인, 토큰 자동 재발급</li>
+                        <li>WebSocket/STOMP 기반 실시간 채팅방 기능을 처음부터 설계·구현 (메시지 검증, 전송 속도 제한, 접근 제어)</li>
+                        <li>사용자 선호 지역 등록 및 카카오맵 위치 선택 UI, 지도 렌더링 UX 개선</li>
+                        <li>마이페이지 신규 제작(선호 위치, 식사 성향 테스트), 후기 작성·재매칭 지수 표시 기능</li>
+                        <li>Swagger API 문서화, ERD 작성, 트러블슈팅·WBS 문서 작성</li>
+                    </ul>
+                    <p>
+                        <a href="https://github.com/prgrms-aibe-devcourse/AIBE7-Project2-Team04" target="_blank">GitHub 저장소 보기</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2026</span> 안상민
+                    </p>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/sang9831" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="mailto:tjfl9831@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
